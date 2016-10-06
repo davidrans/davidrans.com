@@ -1,0 +1,134 @@
+body {
+	background-color: rgb(252, 252, 252);
+   font-family: 'Lato', sans-serif;
+	text-align: center;
+   padding: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.heading {
+	color: rgb(88, 88, 96);
+	font-size: 32px;
+	line-height: 48px;
+}
+
+.subheading {
+	color: rgb(205, 205, 205);
+	font-size: 18px;
+}
+
+#header {
+	margin-top: 20px;
+}
+
+#header #job {
+	position: relative;
+	top: -14px;
+	background-color: rgb(252, 252, 252);
+	width: 160px;
+	margin: auto;
+}
+
+#header hr {
+	margin: 5px auto 0 auto;
+	width: 90%;
+}
+
+#footer hr {
+	margin: auto;
+	margin-top: 20px;
+	width: 90%;
+}
+
+#contact {
+	background-color: rgb(231, 231, 231);
+	margin: 20px 0;
+}
+
+#contact p.heading {
+	line-height: 60px;
+	margin: 0 auto;
+	width: 260px;
+}
+
+#contact p.heading:hover {
+	cursor: pointer;
+	color: rgb(120, 120, 120);
+}
+
+#contact > div {
+	background-color: rgb(240, 240, 240);
+	text-align: left;
+}
+
+#contact-form {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+	padding: 0 20px;
+}
+
+#contact-form #phone-number {
+   text-align: center;
+   margin: 12px 0 2px 0;
+   font-size: 22px;
+}
+
+#contact-form span {
+	font-size: 14px;
+	color: rgb(153, 153, 153);
+	line-height: 20px;
+	position: relative;
+	top: -9px;
+	display: inline-block;
+	width: 40px;
+}
+
+#contact-form p {
+	font-size: 14px;
+	color: rgb(153, 153, 153);
+	line-height: 24px;
+}
+
+#contact-form textarea {
+	width: 97%;
+}
+
+#contact-form button {
+	color: gray;
+}
+
+#contact-form #status-message {
+	display: inline;
+	display: none;
+	position: relative;
+	top: -3px;
+	left: 20px;
+}
+
+#contact-form #status-message.error {
+	color: #633232;
+}
+
+#contact-form #status-message.success {
+	color: #285028;
+}
+
+#footer p {
+	
+	position: relative;
+	top: -11px;
+	font-size: 10px;
+	background-color: rgb(252, 252, 252);
+	width: 200px;
+	margin: auto;
+	color: rgb(212, 212, 212);
+}

@@ -1,5 +1,9 @@
 <?php
 
+if (php_sapi_name() == 'cli-server' && preg_match('/\.(?:png|jpg|jpeg|gif)$/', $_SERVER["REQUEST_URI"])) {
+   return false;
+}
+
 $db = [
    'name' => 'David Rans',
    'title' => 'Software Engineer',
